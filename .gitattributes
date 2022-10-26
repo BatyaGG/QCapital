@@ -1,0 +1,5 @@
+*.sav filter=lfs diff=lfs merge=lfs -text
+*.dictionary filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
+Projects/Momentum2/temp_strategy.pk filter=lfs diff=lfs merge=lfs -text

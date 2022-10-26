@@ -1,0 +1,10 @@
+ValueError('min() arg is an empty sequence')Traceback (most recent call last):
+  File "./Strategy.py", line 471, in <module>
+    main()
+  File "./Strategy.py", line 452, in main
+    plot_figures()
+  File "./Strategy.py", line 194, in plot_figures
+    plot_closes(ax[0], [dt for dt, close, vol in list(history[ticker][0])[-dots_n:]],
+  File "../../QuantumCapital/PlotManager.py", line 89, in plot_closes
+    min_y = min(closes)
+ValueError: min() arg is an empty sequence

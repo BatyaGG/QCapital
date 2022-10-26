@@ -1,0 +1,14 @@
+IndexError('single positional indexer is out-of-bounds')Traceback (most recent call last):
+  File "./Strategy.py", line 465, in <module>
+    main()
+  File "./Strategy.py", line 443, in main
+    make_orders(day_cnt)
+  File "./Strategy.py", line 240, in make_orders
+    spx_curr = spx_curr.iloc[-1]
+  File "/home/batyrkhan/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 895, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/batyrkhan/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1501, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/home/batyrkhan/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1444, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds

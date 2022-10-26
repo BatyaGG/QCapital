@@ -1,0 +1,4 @@
+0.00019849994114254555
+{'genmodel': <class 'lightgbm.sklearn.LGBMClassifier'>, 'verbose': False, 'model_settings': {'boosting_type': 'gbdt', 'num_leaves': 942, 'max_depth': -1, 'learning_rate': 0.007214761209635671, 'n_estimators': 914, 'subsample_for_bin': 200000, 'objective': None, 'class_weight': None, 'min_split_gain': 0.0, 'min_child_weight': 0.0031447863252490943, 'min_child_samples': 939, 'subsample': 0.4621755550991315, 'subsample_freq': 1, 'colsample_bytree': 1.0, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'importance_type': 'split', 'feature_fraction': 0.8219329998328904}, 'preproc_mkt': {'price_lags': [1, 5, 20, 250], 'vol_lags': [2, 10]}, 'preproc_tick': {'fwd': 11, 'cut_first': 150, 'price_lags': [1, 2, 5, 10, 20, 50, 100, 250], 'vol_lags': [2, 5, 10, 20]}, 'threshold': 0.8211030015749461, 'drag': True}
+
+07:06:32
